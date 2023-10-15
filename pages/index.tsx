@@ -9,6 +9,7 @@ export default function Home() {
         <span className={classes.highlight}>SET</span> recruitment task
       </Title>
       <div className="flex flex-col md:flex-row gap-4 mx-4">
+      <Link href="/todo">
         <Board title="Frontend">
           <List.Item>
             Explore this project and try to create your own React components
@@ -27,6 +28,7 @@ export default function Home() {
             </Link>
           </List.Item>
         </Board>
+      </Link>
         <Board title="Backend">
           <List.Item>
             Go to <strong>/api/hello</strong> and explore the available API in
